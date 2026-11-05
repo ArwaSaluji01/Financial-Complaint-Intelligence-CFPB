@@ -1,0 +1,17 @@
+{
+    "dataset_name": "CFPB Consumer Complaint Database Narratives Archive",
+    "archive_label": "January-February 2026",
+    "source_url": "https://files.consumerfinance.gov/f/documents/CCDB_Export_15_January_2026_through_February_2026.zip",
+    "archive_page": "https://www.consumerfinance.gov/foia-requests/foia-electronic-reading-room/cfpb-consumer-complaint-database-narratives-archive/",
+    "collection_timestamp_utc": "2026-11-05T09:49:30.338445+00:00",
+    "downloaded_in_current_run": false,
+    "file_name": "cfpb_complaints_jan_feb_2026.zip",
+    "file_size_bytes": 36832036,
+    "sha256": "437eee7adcc3e4342d1eafd8d716c4ef149e29c6a68c5ce3c379d1dc82c14b22",
+    "archive_contents": [
+        {
+            "name": "CCDB_Export_15_January_2026_through_February_2026.csv",
+            "size_bytes": 366507123
+        }
+    ]
+}

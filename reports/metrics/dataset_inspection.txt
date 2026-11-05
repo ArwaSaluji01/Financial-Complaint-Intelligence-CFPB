@@ -1,0 +1,112 @@
+============================================================
+CFPB DATASET INSPECTION REPORT
+============================================================
+
+Dataset: CFPB Consumer Complaint Database Narratives Archive
+Archive: January-February 2026
+
+Total records: 1,038,383
+
+DISCOVERED COLUMNS
+- Date received
+- Product
+- Sub-product
+- Issue
+- Sub-issue
+- Consumer complaint narrative
+- Company public response
+- Company
+- State
+- ZIP code
+- Tags
+- Submitted via
+- Date sent to company
+- Company response to consumer
+- Timely response?
+- Complaint ID
+
+DETECTED FIELDS
+narrative: Consumer complaint narrative
+product: Product
+issue: Issue
+complaint_id: Complaint ID
+date_received: Date received
+
+MISSING VALUES
+Date received: 0 (0.0%)
+Product: 0 (0.0%)
+Sub-product: 0 (0.0%)
+Issue: 0 (0.0%)
+Sub-issue: 13,824 (1.33%)
+Consumer complaint narrative: 1,004,032 (96.69%)
+Company public response: 408,130 (39.3%)
+Company: 0 (0.0%)
+State: 1,287 (0.12%)
+ZIP code: 0 (0.0%)
+Tags: 1,015,461 (97.79%)
+Submitted via: 0 (0.0%)
+Date sent to company: 0 (0.0%)
+Company response to consumer: 0 (0.0%)
+Timely response?: 0 (0.0%)
+Complaint ID: 0 (0.0%)
+
+NARRATIVE STATISTICS
+missing_narratives: 1004032
+placeholder_narratives: 0
+usable_narrative_count: 34351
+exact_duplicate_narratives: 3087
+length_statistics: {'count': 34351, 'minimum': 47, 'median': 958.0, 'mean': 1260.65, 'maximum': 28936, 'percentile_90': 2544.0}
+
+DUPLICATE COMPLAINT IDS
+0
+
+PRODUCT DISTRIBUTION
+Credit reporting or other personal consumer reports: 923,770
+Debt collection: 58,411
+Credit card: 16,917
+Checking or savings account: 14,475
+Money transfer, virtual currency, or money service: 6,244
+Mortgage: 5,573
+Vehicle loan or lease: 4,428
+Student loan: 3,653
+Payday loan, title loan, personal loan, or advance loan: 3,000
+Prepaid card: 1,144
+Debt or credit management: 768
+
+ISSUE DISTRIBUTION
+Incorrect information on your report: 545,300
+Improper use of your report: 210,569
+Problem with a company's investigation into an existing problem: 164,027
+Attempts to collect debt not owed: 24,436
+Took or threatened to take negative or legal action: 15,034
+Written notification about debt: 9,589
+Managing an account: 8,230
+False statements or representation: 6,337
+Problem with a purchase shown on your statement: 5,365
+Problem with fraud alerts or security freezes: 4,056
+Unable to get your credit report or credit score: 2,820
+Trouble during payment process: 2,692
+Dealing with your lender or servicer: 2,075
+Problem with a lender or other company charging your account: 2,034
+Getting a credit card: 2,031
+Closing an account: 1,986
+Other features, terms, or problems: 1,818
+Fraud or scam: 1,791
+Fees or interest: 1,767
+Communication tactics: 1,642
+Struggling to pay mortgage: 1,510
+Managing the loan or lease: 1,341
+Problem when making payments: 1,284
+Opening an account: 1,274
+Credit monitoring or identity theft protection services: 1,264
+Repossession: 1,178
+Closing your account: 1,100
+Unauthorized transactions or other transaction problem: 1,099
+Other transaction problem: 975
+Electronic communications: 907
+
+DATE COVERAGE
+minimum: 2026-01-01 00:00:00
+maximum: 2026-02-28 00:00:00
+
+============================================================

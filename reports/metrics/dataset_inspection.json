@@ -1,0 +1,161 @@
+{
+    "dataset": "CFPB Consumer Complaint Database Narratives Archive",
+    "archive_label": "January-February 2026",
+    "archive_file": "cfpb_complaints_jan_feb_2026.zip",
+    "total_records": 1038383,
+    "columns": [
+        "Date received",
+        "Product",
+        "Sub-product",
+        "Issue",
+        "Sub-issue",
+        "Consumer complaint narrative",
+        "Company public response",
+        "Company",
+        "State",
+        "ZIP code",
+        "Tags",
+        "Submitted via",
+        "Date sent to company",
+        "Company response to consumer",
+        "Timely response?",
+        "Complaint ID"
+    ],
+    "detected_fields": {
+        "narrative": "Consumer complaint narrative",
+        "product": "Product",
+        "issue": "Issue",
+        "complaint_id": "Complaint ID",
+        "date_received": "Date received"
+    },
+    "missing_values": {
+        "Date received": {
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        "Product": {
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        "Sub-product": {
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        "Issue": {
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        "Sub-issue": {
+            "missing_count": 13824,
+            "missing_percentage": 1.33
+        },
+        "Consumer complaint narrative": {
+            "missing_count": 1004032,
+            "missing_percentage": 96.69
+        },
+        "Company public response": {
+            "missing_count": 408130,
+            "missing_percentage": 39.3
+        },
+        "Company": {
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        "State": {
+            "missing_count": 1287,
+            "missing_percentage": 0.12
+        },
+        "ZIP code": {
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        "Tags": {
+            "missing_count": 1015461,
+            "missing_percentage": 97.79
+        },
+        "Submitted via": {
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        "Date sent to company": {
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        "Company response to consumer": {
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        "Timely response?": {
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        "Complaint ID": {
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        }
+    },
+    "narrative_statistics": {
+        "missing_narratives": 1004032,
+        "placeholder_narratives": 0,
+        "usable_narrative_count": 34351,
+        "exact_duplicate_narratives": 3087,
+        "length_statistics": {
+            "count": 34351,
+            "minimum": 47,
+            "median": 958.0,
+            "mean": 1260.65,
+            "maximum": 28936,
+            "percentile_90": 2544.0
+        }
+    },
+    "duplicate_complaint_ids": 0,
+    "product_distribution": {
+        "Credit reporting or other personal consumer reports": 923770,
+        "Debt collection": 58411,
+        "Credit card": 16917,
+        "Checking or savings account": 14475,
+        "Money transfer, virtual currency, or money service": 6244,
+        "Mortgage": 5573,
+        "Vehicle loan or lease": 4428,
+        "Student loan": 3653,
+        "Payday loan, title loan, personal loan, or advance loan": 3000,
+        "Prepaid card": 1144,
+        "Debt or credit management": 768
+    },
+    "issue_distribution": {
+        "Incorrect information on your report": 545300,
+        "Improper use of your report": 210569,
+        "Problem with a company's investigation into an existing problem": 164027,
+        "Attempts to collect debt not owed": 24436,
+        "Took or threatened to take negative or legal action": 15034,
+        "Written notification about debt": 9589,
+        "Managing an account": 8230,
+        "False statements or representation": 6337,
+        "Problem with a purchase shown on your statement": 5365,
+        "Problem with fraud alerts or security freezes": 4056,
+        "Unable to get your credit report or credit score": 2820,
+        "Trouble during payment process": 2692,
+        "Dealing with your lender or servicer": 2075,
+        "Problem with a lender or other company charging your account": 2034,
+        "Getting a credit card": 2031,
+        "Closing an account": 1986,
+        "Other features, terms, or problems": 1818,
+        "Fraud or scam": 1791,
+        "Fees or interest": 1767,
+        "Communication tactics": 1642,
+        "Struggling to pay mortgage": 1510,
+        "Managing the loan or lease": 1341,
+        "Problem when making payments": 1284,
+        "Opening an account": 1274,
+        "Credit monitoring or identity theft protection services": 1264,
+        "Repossession": 1178,
+        "Closing your account": 1100,
+        "Unauthorized transactions or other transaction problem": 1099,
+        "Other transaction problem": 975,
+        "Electronic communications": 907
+    },
+    "date_coverage": {
+        "minimum": "2026-01-01 00:00:00",
+        "maximum": "2026-02-28 00:00:00"
+    }
+}

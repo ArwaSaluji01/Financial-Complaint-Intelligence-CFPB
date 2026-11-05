@@ -1,23 +1,10 @@
 
-# Virtual environment
-.venv/
-venv/
-env/
-
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-
-# Jupyter
-.ipynb_checkpoints/
-
-# Environment variables
-.env
-
-# Raw and processed datasets
+# Raw datasets
 data/raw/*
 data/processed/*
+
+# Preserve acquisition metadata
+!data/raw/dataset_metadata.json
 
 # Preserve directory structure
 !data/raw/.gitkeep
@@ -28,21 +15,12 @@ models/*
 !models/baseline/.gitkeep
 !models/transformer/.gitkeep
 
-# Reports generated during execution
+# Generated reports
 reports/figures/*
 reports/metrics/*
 
-# Preserve report directories
+# Preserve directory structure and dataset inspection
 !reports/figures/.gitkeep
 !reports/metrics/.gitkeep
-
-# Logs
-*.log
-
-# IDE
-.vscode/
-.idea/
-
-# OS
-.DS_Store
-Thumbs.db
+!reports/metrics/dataset_inspection.json
+!reports/metrics/dataset_inspection.txt

@@ -4,6 +4,16 @@ from scripts.inspect_cfpb_data import (
     find_column
 )
 
+from scripts.analyze_narrative_subset import normalize_text
+
+
+def test_normalize_text():
+    result = normalize_text(
+        "  PAYMENT   ISSUE   WITH BANK  "
+    )
+
+    assert result == "payment issue with bank"
+
 
 def test_normalize_column():
     assert normalize_column(
