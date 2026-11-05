@@ -1,0 +1,21 @@
+
+project_name: Financial Complaint Intelligence using CFPB Data
+
+source:
+  name: CFPB Consumer Complaint Database Narratives Archive
+  archive_page: https://www.consumerfinance.gov/foia-requests/foia-electronic-reading-room/cfpb-consumer-complaint-database-narratives-archive/
+  archive_url: https://files.consumerfinance.gov/f/documents/CCDB_Export_15_January_2026_through_February_2026.zip
+  archive_label: January-February 2026
+  date_start: "2026-01-15"
+  date_end: "2026-02-28"
+
+paths:
+  raw_archive: data/raw/cfpb_complaints_jan_feb_2026.zip
+  metadata: data/raw/dataset_metadata.json
+  inspection_report: reports/metrics/dataset_inspection.json
+  inspection_text: reports/metrics/dataset_inspection.txt
+
+inspection:
+  chunk_size: 50000
+  top_categories: 30
+  narrative_sample_limit: 50000
