@@ -1,0 +1,31 @@
+
+# Data processing
+numpy>=1.26,<3.0
+pandas>=2.2,<3.0
+scipy>=1.12
+
+# API access
+requests>=2.32,<3.0
+
+# Machine learning
+scikit-learn>=1.5,<2.0
+joblib>=1.4
+
+# NLP and Transformers
+transformers>=4.45,<6.0
+tokenizers>=0.20
+accelerate>=1.0
+safetensors>=0.4
+
+# Visualization
+matplotlib>=3.9
+
+# Utilities
+tqdm>=4.66
+PyYAML>=6.0
+
+# Testing
+pytest>=8.0
+
+# PyTorch is installed separately to select the correct
+# CPU or CUDA build for the machine.

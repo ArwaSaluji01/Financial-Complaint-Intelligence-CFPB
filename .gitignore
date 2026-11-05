@@ -1,0 +1,48 @@
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# Raw and processed datasets
+data/raw/*
+data/processed/*
+
+# Preserve directory structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Model checkpoints and artifacts
+models/*
+!models/baseline/.gitkeep
+!models/transformer/.gitkeep
+
+# Reports generated during execution
+reports/figures/*
+reports/metrics/*
+
+# Preserve report directories
+!reports/figures/.gitkeep
+!reports/metrics/.gitkeep
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
