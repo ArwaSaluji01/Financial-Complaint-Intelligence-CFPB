@@ -1,13 +1,13 @@
-# Processed datasets
-data/processed/*
-!data/processed/.gitkeep
-!data/processed/preparation_metadata.json
-!data/processed/product/
-!data/processed/issue/
+# Trained model artifacts
+artifacts/
 
-# Ignore processed CSVs, retain task metadata
-data/processed/product/*
-!data/processed/product/metadata.json
+# Model checkpoints and experiment outputs
+checkpoints/
+runs/
+wandb/
 
-data/processed/issue/*
-!data/processed/issue/metadata.json
+# Python and ML caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/

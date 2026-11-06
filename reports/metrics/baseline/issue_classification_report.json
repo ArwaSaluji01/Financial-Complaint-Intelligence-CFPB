@@ -1,0 +1,303 @@
+{
+    "Advertising and marketing, including promotional offers": {
+        "precision": 0.55,
+        "recall": 0.46808510638297873,
+        "f1-score": 0.5057471264367817,
+        "support": 47.0
+    },
+    "Applying for a mortgage or refinancing an existing mortgage": {
+        "precision": 0.4666666666666667,
+        "recall": 0.3783783783783784,
+        "f1-score": 0.417910447761194,
+        "support": 37.0
+    },
+    "Attempts to collect debt not owed": {
+        "precision": 0.7315436241610739,
+        "recall": 0.6497764530551415,
+        "f1-score": 0.6882399368587214,
+        "support": 671.0
+    },
+    "Charged fees or interest you didn't expect": {
+        "precision": 0.425,
+        "recall": 0.38636363636363635,
+        "f1-score": 0.40476190476190477,
+        "support": 44.0
+    },
+    "Closing an account": {
+        "precision": 0.463855421686747,
+        "recall": 0.5746268656716418,
+        "f1-score": 0.5133333333333333,
+        "support": 134.0
+    },
+    "Closing on a mortgage": {
+        "precision": 0.2413793103448276,
+        "recall": 0.22580645161290322,
+        "f1-score": 0.23333333333333334,
+        "support": 31.0
+    },
+    "Closing your account": {
+        "precision": 0.4262295081967213,
+        "recall": 0.4,
+        "f1-score": 0.4126984126984127,
+        "support": 65.0
+    },
+    "Communication tactics": {
+        "precision": 0.35766423357664234,
+        "recall": 0.5157894736842106,
+        "f1-score": 0.4224137931034483,
+        "support": 95.0
+    },
+    "Confusing or missing disclosures": {
+        "precision": 0.2,
+        "recall": 0.041666666666666664,
+        "f1-score": 0.06896551724137931,
+        "support": 24.0
+    },
+    "Dealing with your lender or servicer": {
+        "precision": 0.644927536231884,
+        "recall": 0.8090909090909091,
+        "f1-score": 0.717741935483871,
+        "support": 110.0
+    },
+    "Electronic communications": {
+        "precision": 0.2903225806451613,
+        "recall": 0.36,
+        "f1-score": 0.32142857142857145,
+        "support": 50.0
+    },
+    "False statements or representation": {
+        "precision": 0.5964125560538116,
+        "recall": 0.5473251028806584,
+        "f1-score": 0.5708154506437768,
+        "support": 243.0
+    },
+    "Fees or interest": {
+        "precision": 0.5245901639344263,
+        "recall": 0.8205128205128205,
+        "f1-score": 0.64,
+        "support": 117.0
+    },
+    "Fraud or scam": {
+        "precision": 0.38414634146341464,
+        "recall": 0.5163934426229508,
+        "f1-score": 0.4405594405594406,
+        "support": 122.0
+    },
+    "Getting a credit card": {
+        "precision": 0.5465116279069767,
+        "recall": 0.5465116279069767,
+        "f1-score": 0.5465116279069767,
+        "support": 86.0
+    },
+    "Getting a loan or lease": {
+        "precision": 0.3333333333333333,
+        "recall": 0.21428571428571427,
+        "f1-score": 0.2608695652173913,
+        "support": 28.0
+    },
+    "Getting the loan": {
+        "precision": 0.26666666666666666,
+        "recall": 0.23529411764705882,
+        "f1-score": 0.25,
+        "support": 17.0
+    },
+    "Improper use of your report": {
+        "precision": 0.3125,
+        "recall": 0.25,
+        "f1-score": 0.2777777777777778,
+        "support": 40.0
+    },
+    "Incorrect information on your report": {
+        "precision": 0.44086021505376344,
+        "recall": 0.48520710059171596,
+        "f1-score": 0.4619718309859155,
+        "support": 169.0
+    },
+    "Managing an account": {
+        "precision": 0.5950226244343891,
+        "recall": 0.5126705653021443,
+        "f1-score": 0.5507853403141362,
+        "support": 513.0
+    },
+    "Managing the loan or lease": {
+        "precision": 0.4470588235294118,
+        "recall": 0.4523809523809524,
+        "f1-score": 0.44970414201183434,
+        "support": 84.0
+    },
+    "Managing, opening, or closing your mobile wallet account": {
+        "precision": 0.42857142857142855,
+        "recall": 0.391304347826087,
+        "f1-score": 0.4090909090909091,
+        "support": 23.0
+    },
+    "Money was not available when promised": {
+        "precision": 0.45161290322580644,
+        "recall": 0.3888888888888889,
+        "f1-score": 0.417910447761194,
+        "support": 36.0
+    },
+    "Opening an account": {
+        "precision": 0.573170731707317,
+        "recall": 0.6811594202898551,
+        "f1-score": 0.6225165562913907,
+        "support": 69.0
+    },
+    "Other features, terms, or problems": {
+        "precision": 0.5,
+        "recall": 0.43859649122807015,
+        "f1-score": 0.4672897196261682,
+        "support": 114.0
+    },
+    "Other transaction problem": {
+        "precision": 0.4090909090909091,
+        "recall": 0.2608695652173913,
+        "f1-score": 0.3185840707964602,
+        "support": 69.0
+    },
+    "Problem caused by your funds being low": {
+        "precision": 0.5471698113207547,
+        "recall": 0.4915254237288136,
+        "f1-score": 0.5178571428571429,
+        "support": 59.0
+    },
+    "Problem when making payments": {
+        "precision": 0.2463768115942029,
+        "recall": 0.22077922077922077,
+        "f1-score": 0.2328767123287671,
+        "support": 77.0
+    },
+    "Problem with a company's investigation into an existing problem": {
+        "precision": 0.36065573770491804,
+        "recall": 0.3013698630136986,
+        "f1-score": 0.3283582089552239,
+        "support": 73.0
+    },
+    "Problem with a lender or other company charging your account": {
+        "precision": 0.2878787878787879,
+        "recall": 0.2753623188405797,
+        "f1-score": 0.2814814814814815,
+        "support": 138.0
+    },
+    "Problem with a purchase or transfer": {
+        "precision": 0.3333333333333333,
+        "recall": 0.17857142857142858,
+        "f1-score": 0.23255813953488372,
+        "support": 28.0
+    },
+    "Problem with a purchase shown on your statement": {
+        "precision": 0.6377551020408163,
+        "recall": 0.7886435331230284,
+        "f1-score": 0.7052186177715092,
+        "support": 317.0
+    },
+    "Problem with additional add-on products or services": {
+        "precision": 0.3333333333333333,
+        "recall": 0.16666666666666666,
+        "f1-score": 0.2222222222222222,
+        "support": 18.0
+    },
+    "Problem with the payoff process at the end of the loan": {
+        "precision": 0.3333333333333333,
+        "recall": 0.058823529411764705,
+        "f1-score": 0.1,
+        "support": 17.0
+    },
+    "Problems at the end of the loan or lease": {
+        "precision": 0.45652173913043476,
+        "recall": 0.5384615384615384,
+        "f1-score": 0.49411764705882355,
+        "support": 39.0
+    },
+    "Repossession": {
+        "precision": 0.6067415730337079,
+        "recall": 0.72,
+        "f1-score": 0.6585365853658537,
+        "support": 75.0
+    },
+    "Struggling to pay mortgage": {
+        "precision": 0.625,
+        "recall": 0.8227848101265823,
+        "f1-score": 0.7103825136612022,
+        "support": 79.0
+    },
+    "Struggling to pay your loan": {
+        "precision": 0.21428571428571427,
+        "recall": 0.09090909090909091,
+        "f1-score": 0.1276595744680851,
+        "support": 33.0
+    },
+    "Struggling to repay your loan": {
+        "precision": 0.3,
+        "recall": 0.16216216216216217,
+        "f1-score": 0.21052631578947367,
+        "support": 37.0
+    },
+    "Threatened to contact someone or share information improperly": {
+        "precision": 0.5172413793103449,
+        "recall": 0.5,
+        "f1-score": 0.5084745762711864,
+        "support": 30.0
+    },
+    "Took or threatened to take negative or legal action": {
+        "precision": 0.5641025641025641,
+        "recall": 0.4489795918367347,
+        "f1-score": 0.5,
+        "support": 147.0
+    },
+    "Trouble accessing funds in your mobile or digital wallet": {
+        "precision": 0.44285714285714284,
+        "recall": 0.5636363636363636,
+        "f1-score": 0.496,
+        "support": 55.0
+    },
+    "Trouble during payment process": {
+        "precision": 0.6927374301675978,
+        "recall": 0.7251461988304093,
+        "f1-score": 0.7085714285714285,
+        "support": 171.0
+    },
+    "Trouble using the card": {
+        "precision": 0.4782608695652174,
+        "recall": 0.4583333333333333,
+        "f1-score": 0.46808510638297873,
+        "support": 24.0
+    },
+    "Trouble using your card": {
+        "precision": 0.5,
+        "recall": 0.5128205128205128,
+        "f1-score": 0.5063291139240507,
+        "support": 39.0
+    },
+    "Unauthorized transactions or other transaction problem": {
+        "precision": 0.28703703703703703,
+        "recall": 0.4025974025974026,
+        "f1-score": 0.33513513513513515,
+        "support": 77.0
+    },
+    "Unexpected or other fees": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 18.0
+    },
+    "Written notification about debt": {
+        "precision": 0.5454545454545454,
+        "recall": 0.5407725321888412,
+        "f1-score": 0.5431034482758621,
+        "support": 233.0
+    },
+    "accuracy": 0.5338034010783907,
+    "macro avg": {
+        "precision": 0.43577528024927425,
+        "recall": 0.4274860337401234,
+        "f1-score": 0.42246781586415905,
+        "support": 4822.0
+    },
+    "weighted avg": {
+        "precision": 0.531264522419962,
+        "recall": 0.5338034010783907,
+        "f1-score": 0.526948661340248,
+        "support": 4822.0
+    }
+}

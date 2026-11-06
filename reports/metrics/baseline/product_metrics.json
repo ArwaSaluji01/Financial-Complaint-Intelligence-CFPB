@@ -1,0 +1,10 @@
+{
+    "task": "product",
+    "model": "TF-IDF + LinearSVC",
+    "training_samples": 19906,
+    "validation_samples": 4978,
+    "number_of_classes": 11,
+    "accuracy": 0.8216151064684613,
+    "macro_f1": 0.7343671557391012,
+    "weighted_f1": 0.8193181652613288
+}
