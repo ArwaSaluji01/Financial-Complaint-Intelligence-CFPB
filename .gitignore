@@ -1,26 +1,13 @@
-
-# Raw datasets
-data/raw/*
+# Processed datasets
 data/processed/*
-
-# Preserve acquisition metadata
-!data/raw/dataset_metadata.json
-
-# Preserve directory structure
-!data/raw/.gitkeep
 !data/processed/.gitkeep
+!data/processed/preparation_metadata.json
+!data/processed/product/
+!data/processed/issue/
 
-# Model checkpoints and artifacts
-models/*
-!models/baseline/.gitkeep
-!models/transformer/.gitkeep
+# Ignore processed CSVs, retain task metadata
+data/processed/product/*
+!data/processed/product/metadata.json
 
-# Generated reports
-reports/figures/*
-reports/metrics/*
-
-# Preserve directory structure and dataset inspection
-!reports/figures/.gitkeep
-!reports/metrics/.gitkeep
-!reports/metrics/dataset_inspection.json
-!reports/metrics/dataset_inspection.txt
+data/processed/issue/*
+!data/processed/issue/metadata.json
