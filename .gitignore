@@ -1,12 +1,15 @@
-# Trained model artifacts
+# Training artifacts and checkpoints
 artifacts/
-
-# Model checkpoints and experiment outputs
 checkpoints/
 runs/
 wandb/
 
-# Python and ML caches
+# Local experiment outputs
+*.pt
+*.pth
+*.safetensors
+
+# Python caches
 __pycache__/
 *.py[cod]
 .pytest_cache/
