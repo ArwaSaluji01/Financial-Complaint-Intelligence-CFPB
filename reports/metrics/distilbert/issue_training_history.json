@@ -1,0 +1,16 @@
+[
+    {
+        "epoch": 1,
+        "training_loss": 3.1089228835653735,
+        "validation_accuracy": 0.32282811528094546,
+        "validation_macro_f1": 0.20327851865642677,
+        "validation_weighted_f1": 0.2854165817805322
+    },
+    {
+        "epoch": 2,
+        "training_loss": 2.3063183529453126,
+        "validation_accuracy": 0.38585942359527264,
+        "validation_macro_f1": 0.27947855363158114,
+        "validation_weighted_f1": 0.36629594508236096
+    }
+]

@@ -1,0 +1,17 @@
+{
+    "task": "issue",
+    "model": "DistilBERT",
+    "pretrained_model": "distilbert-base-uncased",
+    "training_samples": 19288,
+    "validation_samples": 4823,
+    "number_of_classes": 48,
+    "best_epoch": 2,
+    "accuracy": 0.38585942359527264,
+    "macro_f1": 0.27947855363158114,
+    "weighted_f1": 0.36629594508236096,
+    "max_length": 192,
+    "batch_size": 8,
+    "gradient_accumulation_steps": 2,
+    "learning_rate": 2e-05,
+    "device": "cuda"
+}
